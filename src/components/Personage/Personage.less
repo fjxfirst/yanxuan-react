@@ -1,0 +1,132 @@
+@import "../../assets/less/remAdaptive.less";
+
+.person-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #F2F5F4;
+  .login-switch-wrap {
+    padding-top:44/@rem;
+    .logo {
+      padding: 160/@rem 0;
+      text-align: center;
+      img {
+        width: 268/@rem;
+        height: 90/@rem;
+      }
+    }
+    .login-switch {
+      text-align: center;
+      .switchPhone {
+        margin: 0 auto;
+        display: block;
+        width: 666/@rem;
+        height: 90/@rem;
+        text-align: center;
+        line-height: 90/@rem;
+        font-size: 28/@rem;
+        color: #fff;
+        border: 1px solid #b4282d;
+        background-color: #b4282d;
+        i {
+          margin-right: 20/@rem;
+          font-size: 40/@rem;
+        }
+        span {
+
+        }
+      }
+      .switchEmail {
+        margin: 32/@rem auto;
+        display: block;
+        width: 666/@rem;
+        height: 90/@rem;
+        text-align: center;
+        line-height: 90/@rem;
+        font-size: 28/@rem;
+        color: #B4282D;
+        border: 1px solid #b4282d;
+        i {
+          margin-right: 20/@rem;
+          font-size: 40/@rem;
+        }
+        span {
+
+        }
+      }
+      .phoneSingIn {
+        color: #333;
+        font-size: 28/@rem;
+      }
+    }
+    .login-method {
+      line-height: 40/@rem;
+      margin: 0 auto;
+      margin-top: 410/@rem;
+      width: 60%;
+      display: flex;
+      justify-content: space-around;
+      span {
+        color: #7F7F7F;
+        font-size: 28/@rem;
+      }
+      .line{
+        display: inline-block;
+        vertical-align: bottom;
+        height:44/@rem;
+        width: 2/@rem;
+        background-color:#7F7F7F;
+      }
+
+    }
+  }
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?cnn2qt');
+  src: url('fonts/icomoon.eot?cnn2qt#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?cnn2qt') format('truetype'),
+  url('fonts/icomoon.woff?cnn2qt') format('woff'),
+  url('fonts/icomoon.svg?cnn2qt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin:before {
+  content: "\e906";
+}
+
+.icon-goahead:before {
+  content: "\e907";
+}
+
+.icon-iphone:before {
+  content: "\e908";
+}
+
+.icon-qq:before {
+  content: "\e909";
+}
+
+.icon-weibo:before {
+  content: "\e910";
+}
+
+.icon-email:before {
+  content: "\e911";
+}

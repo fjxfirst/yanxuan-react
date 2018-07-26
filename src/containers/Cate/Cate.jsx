@@ -13,18 +13,20 @@ class Cate extends Component {
 
   render() {
     const {cateLists} = this.props;
-    console.log(cateLists);
     const cate = cateLists[this.props.match.params.index]
 
     return (
       <div>
         <section className="poster-wrap">
           <div className="poster">
-             <img src={cate.bannerUrl}/>
+            {cate&&
+             <img src={cate.bannerUrl}/>}
           </div>
         </section>
         <section className="Goods">
-          <h1 className="Goods-header">{cate.name}好物</h1>
+          {cate&&
+          <h1 className="Goods-header">{cate.name}好物</h1>}
+          {cate&&
           <ul className="Goods-list">
             {
               cate.itemList.map((item,index)=>{
@@ -41,7 +43,7 @@ class Cate extends Component {
               })
             }
 
-        </ul>
+        </ul>}
       </section>
   </div>
     )

@@ -20,6 +20,10 @@ class Kind extends Component {
   }
   componentDidMount(){
     this.props.getCategorys()
+    new BScroll('.classify-container',{
+      scrollX:false,
+      scrollY:true,
+    })
   }
   render() {
     const{categorys}=this.props

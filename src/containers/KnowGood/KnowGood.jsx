@@ -29,7 +29,6 @@ class KnowGood extends Component {
 
 
   componentDidMount() {
-    console.log('xxx');
     this.props.getBanners()
     this.props.getColumns()
     this.props.getRecommend()
