@@ -1,0 +1,46 @@
+@import "remAdaptive";
+.line-title{
+  height:140/@rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:before{
+    content: ' ';
+    display: block;
+    width: 264/@rem;
+    height: 1px;
+    background-color: #d9d9d9;
+  }
+  &:after{
+    content: ' ';
+    display: block;
+    width: 264/@rem;
+    height: 1px;
+    background-color: #d9d9d9;
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 2 ){
+  .line-title{
+    &:before{
+      transform: scaleY(0.5)
+    }
+    &:after{
+      transform: scaleY(0.5)
+    }
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3 ){
+  .line-title {
+    &:before {
+      transform: scaleY(0.33333333333333333)
+    }
+    &:after {
+      transform: scaleY(0.33333333333333333)
+    }
+  }
+}
+.line-text{
+  margin: 0 24/@rem;
+  font-size: 28/@rem;
+  color: #333;
+}

@@ -1,0 +1,60 @@
+@import '../../assets/less/remAdaptive.less';
+.poster-wrap {
+  width: 100%;
+  padding-top: 148/@rem;
+  .poster{
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+.Goods {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20/@rem;
+  padding-bottom: 98/@rem;
+  .Goods-header {
+    height: 120/@rem;
+    font-size: 28/@rem;
+    text-align: center;
+    line-height: 120/@rem;
+  }
+  .Goods-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    li {
+      width: 345/@rem;
+      margin-bottom: 30/@rem;
+      .goodInfo {
+        border-radius: 10/@rem;
+        background-color: #F1ECE2;
+        color: #9F8A60;
+        margin-bottom: 10/@rem;
+        img {
+          width: 345/@rem;
+          border-radius: 10/@rem;
+        }
+        p {
+          font-size: 24/@rem;
+          padding: 20/@rem 10/@rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;//这3个条件必须都满足才能显示省略号
+        }
+      }
+      .goodTitle {
+        font-size: 28/@rem;
+        margin-left: 10/@rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;//这3个条件必须都满足才能显示省略号
+      }
+      span {
+        font-size: 32/@rem;
+        color: #BA393D;
+      }
+    }
+  }
+}

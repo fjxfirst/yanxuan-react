@@ -1,0 +1,63 @@
+@import '../../assets/less/remAdaptive.less';
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+  width: 100%;
+  .header-top-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14/@rem 30/@rem;
+
+    .logotext {
+      display: block;
+      float: left;
+
+      margin-right: 20/@rem;
+      img {
+        width: 138/@rem;
+        vertical-align: middle;
+      }
+    }
+    .search {
+      display: block;
+      float: left;
+      width: 532/@rem;
+      height: 56/@rem;
+      color: #666;
+      background-color: #EDEDED;
+      font-size: 26/@rem;
+      text-align: center;
+      line-height: 56/@rem;
+      border-radius: 6/@rem;
+      i {
+        margin-right: 10/@rem;
+        font-size: 26/@rem;
+      }
+    }
+  }
+  .nav-wrap {
+    width: 100%;
+    overflow: hidden;
+    .ulList {
+      white-space: nowrap;
+      float: left;
+      li {
+        display: inline-block;
+        text-align: center;
+        min-width: 70/@rem;
+        height: 60/@rem;
+        font-size: 28/@rem;
+        line-height: 60/@rem;
+        margin: 0 30/@rem;
+        color:#333;
+        &.active {
+          border-bottom: 1px solid #B4282D;
+          color: #B4282D;
+        }
+      }
+    }
+  }
+}
