@@ -1,22 +1,17 @@
 @import "../../assets/less/remAdaptive.less";
-
 .regist-wrap{
   height: 100%;
   background-color: #fff;
   .regist-content{
-    padding-top:88/@rem;
+    padding-top:98/@rem;
     .regist-title{
       width: 100%;
-      height:64/@rem;
+      height:45/@rem;
       font-size: 36/@rem;
       line-height: 45/@rem;
       color: #333;
       text-align: center;
-      margin-top: 56/@rem;
-      img{
-        width: 192/@rem;
-        height:64/@rem;
-      }
+      margin-top: 20/@rem;
     }
     form{
       margin-top:80/@rem;
@@ -51,8 +46,14 @@
           right:16/@rem;
         }
       }
+      .phoneNumber{
+        .input-phoneNumber{
+
+        }
+
+      }
       .VerificationCode{
-        margin-top: 120/@rem;
+        margin-top: 100/@rem;
         .input-VerificationCode{
           width: 380/@rem;
           height: 42/@rem;
@@ -75,24 +76,12 @@
         }
 
       }
-      #question{
-        border: none;
-        span{
-          margin-top: 45/@rem;
-        }
-        &>span:nth-child(1){
-          color: #7f7f7f;
-          font-size: 28/@rem;
-          float:left;
-        }
-        &>span:nth-child(2){
-          color: #333;
-          font-size: 28/@rem;
-          float:right;
+      .password{
+        .input-password{
         }
       }
       .error{
-        width: 298/@rem;
+        width: 450/@rem;
         color: #b4282d;
         font-size: 24/@rem;
         height: 40/@rem;
@@ -113,17 +102,6 @@
         background-color: #b4282d;
         border-radius: 8/@rem;
         margin-top: 40/@rem;
-      }
-      .login-btn{
-        margin: 32/@rem auto;
-        display: block;
-        width: 666/@rem;
-        height: 90/@rem;
-        text-align: center;
-        line-height: 90/@rem;
-        font-size: 28/@rem;
-        color: #B4282D;
-        border: 1px solid #b4282d;
       }
       p{
         color: #7f7f7f;

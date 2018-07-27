@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
-import {withRouter} from 'react-router-dom'
-import './Login.less'
-import HeaderGuide from '../HeaderGuide/HeaderGuide'
-class Login extends Component {
+import './Regist.less'
+
+export default class Regist extends Component {
   state = {
     phoneNumber: {
       value: '',
@@ -23,16 +22,11 @@ class Login extends Component {
       errorMsg:''
     },
     errorMsg:'',
-    isPwdLogin:false
-  };
-  loginMethod(){
-    this.setState({
-      isPwdLogin:!this.state.isPwdLogin
-    })
+    gettingCode:true,
+    code:'',
+    stime:30
   }
-  goTo(path){
-    this.props.history.replace(path)
-  }
+
   handleChange = (e, field) => {
     const {phoneNumber,VerificationCode,password}=this.state
     let value = e.target.value;
@@ -57,7 +51,7 @@ class Login extends Component {
           if (!/^1[3|4|5|7|8][0-9]{9}$/.test(phoneNumber.value)) {
             phoneNumber.isError=true
             phoneNumber.valid=false
-            phoneNumber.errorMsg='手机号格式错误'
+           phoneNumber.errorMsg='手机号格式错误'
             this.setState({phoneNumber})
           } else {
             phoneNumber.isError=false
@@ -72,7 +66,7 @@ class Login extends Component {
           if (!/^\d{6}$/.test(VerificationCode.value)) {
             VerificationCode.isError=true
             phoneNumber.valid=false
-            VerificationCode.errorMsg='短信验证码格式错误'
+             VerificationCode.errorMsg='短信验证码格式错误'
             this.setState({VerificationCode})
           } else {
             VerificationCode.isError=false
@@ -85,14 +79,14 @@ class Login extends Component {
       case 'password':
         if (password.value) {
           if (!/^.{6,16}$/.test(password.value)) {
-            password.isError=true
-            password.valid=false
-            password.errorMsg='密码须由6-16个字符组成，区分大小写'
+             password.isError=true
+             password.valid=false
+             password.errorMsg='密码须由6-16个字符组成，区分大小写'
             this.setState({password})
           } else {
             password.isError=false
             password.valid=true
-            password.errorMsg=''
+             password.errorMsg=''
             this.setState({password})
           }
         }
@@ -146,21 +140,21 @@ class Login extends Component {
     switch (field) {
       case 'phoneNumber':
         if(phoneNumber.isError){
-          // phoneNumber.isError=false
+         // phoneNumber.isError=false
           phoneNumber.errorMsg=''
           this.setState({phoneNumber})
         }
         break;
       case 'VerificationCode':
         if(VerificationCode.isError){
-          // VerificationCode.isError=false;
+         // VerificationCode.isError=false;
           VerificationCode.errorMsg=''
           this.setState({VerificationCode});
         }
         break;
       case 'password':
         if(password.isError){
-          // password.isError=false;
+         // password.isError=false;
           password.errorMsg=''
           this.setState({password})
         }
@@ -168,7 +162,40 @@ class Login extends Component {
     }
   }
 
-  login() {
+  //获取验证码
+  getCode(){
+    let{gettingCode,phoneNumber,stime,VerificationCode}=this.state
+    console.log(1);
+    if(!/^1[3|4|5|7|8][0-9]{9}$/.test(phoneNumber.value)){
+      console.log(2);
+      return
+    }
+    if(!gettingCode){
+      console.log(3);
+      return
+    }
+    console.log(4);
+    this.setState({gettingCode:false})
+    let code='';
+    let i=0;
+    while(i<6){
+      code+=String.fromCharCode(Math.floor(Math.random()*10+48));
+      i++;
+    }
+    this.setState({code})
+
+    setTimeout(()=>{VerificationCode.value=code;this.setState({VerificationCode})}, 5000);
+    let intervalId=setInterval(()=>{
+      stime--
+      this.setState({stime})
+      if(stime===-1){
+        clearInterval(intervalId);
+        this.setState({gettingCode:true,stime:30})
+      }
+    },1000)
+  }
+
+  regist() {
     let {phoneNumber,VerificationCode,password,errorMsg}=this.state
     if (!phoneNumber.value) {
       this.setState({
@@ -216,24 +243,24 @@ class Login extends Component {
 
 
   }
+
   render() {
-    let {phoneNumber, VerificationCode, password,errorMsg} = this.state;
-    if(!errorMsg){
-      if(phoneNumber.isError&&phoneNumber.value){
-        errorMsg=phoneNumber.errorMsg
-      }else if(VerificationCode.isError&&VerificationCode.value){
-        errorMsg=VerificationCode.errorMsg
-      }else if(password.isError&&password.value){
-        errorMsg=password.errorMsg
-      }
-    }
-    const{isPwdLogin}=this.state;
+    let {phoneNumber, VerificationCode, password,errorMsg,gettingCode,stime} = this.state;
+if(!errorMsg){
+  if(phoneNumber.isError&&phoneNumber.value){
+    errorMsg=phoneNumber.errorMsg
+  }else if(VerificationCode.isError&&VerificationCode.value){
+    errorMsg=VerificationCode.errorMsg
+  }else if(password.isError&&password.value){
+    errorMsg=password.errorMsg
+  }
+}
     return (
       <div className="regist-wrap">
-        <HeaderGuide/>
+        <header-guide/>
         <div className="regist-content">
           <header className="regist-title">
-            <img src={require("./img/login.png")}/>
+            手机号注册
           </header>
           <form action="#" autoComplete="off">
             <div className="input-info phoneNumber">
@@ -248,18 +275,15 @@ class Login extends Component {
                 this.clearValue(e, 'phoneNumber')
               }}/>}
             </div>
-            {!isPwdLogin&&
             <div className="input-info VerificationCode">
               {!VerificationCode.value &&
               <label htmlFor="code">请输入短信验证码</label>}
-              <div className="getCode">获取验证码</div>
-              <input type="text" id="code" className="input-VerificationCode"
+              <div className="getCode" onClick={()=>{this.getCode()}}>{gettingCode ? '获取验证码' : `${stime}s后重发`}</div>
+              <input type="text" id="code" className="input-VerificationCode" defaultValue={VerificationCode.value}
                      onChange={(e) => {this.handleChange(e, 'VerificationCode')}}
                      onBlur={(e) => {this.handleBlur(e, 'VerificationCode')}}
                      onFocus={(e) => {this.handleFocus(e, 'VerificationCode')}}/>
             </div>
-            }
-            {isPwdLogin&&
             <div className="input-info password">
               {!password.value &&
               <label htmlFor="pwd">请输入密码</label>}
@@ -267,24 +291,22 @@ class Login extends Component {
                      onChange={(e) => {this.handleChange(e, 'password')}}
                      onBlur={(e) => {this.handleBlur(e, 'password')}}
                      onFocus={(e) => {this.handleFocus(e, 'password')}}/>
-              {password.value&&
+              {password.value &&
               <img src={require("./img/quxiao.png")} onClick={(e) => {
                 this.clearValue(e, 'password')
               }}/>}
             </div>
-            }
-            {errorMsg&&
+            {errorMsg &&
             <div className="error">{errorMsg}</div>}
-            <div className="input-info" id='question'>
-              <span>{isPwdLogin ? '遇到问题？' : '忘记密码？'}</span><span onClick={()=>{this.loginMethod()}}>{isPwdLogin ? '使用密码验证登录' : '使用短信验证登录'}</span>
+            <div className="regits-btn" onClick={() => {
+              this.regist()
+            }}>注册
             </div>
-            <div className="regits-btn" onClick={()=>{this.login()}}>登录</div>
-            <div className="login-btn" onClick={()=>{this.goTo('/Personage')}}>其他登录方式</div>
+            <p>我同意<span>《服务条款》</span>和<span>《网易隐私政策》</span></p>
           </form>
-          <div className="email-regist" onClick={()=>{this.goTo('/Regist')}}>注册账号<i className="icon-goahead"></i></div>
+          <div className="email-regist">邮箱账号注册<i className="icon-goahead"></i></div>
         </div>
       </div>
     )
   }
 }
-export default withRouter(Login)

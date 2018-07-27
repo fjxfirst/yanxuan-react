@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="506a650f-b75a-4c88-bfa9-44b976dfc4d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/Login.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/img/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/img/quxiao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Personage/Personage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Personage/Personage.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Personage/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Personage/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Personage/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Personage/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Personage/img/personlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ShopCart/ShopCart.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ShopCart/ShopCart.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ShopCart/img/shopcart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Regist/Regist.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Regist/Regist.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Regist/img/quxiao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FooterGuide/FooterGuide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterGuide/FooterGuide.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RightContent/RightContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightContent/RightContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Cate/Cate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Cate/Cate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Kind/Kind.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Kind/Kind.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/KnowGood/KnowGood.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/KnowGood/KnowGood.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,35 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cate.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Cate/Cate.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="152">
+              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -77,7 +39,31 @@
         <entry file="file://$PROJECT_DIR$/src/components/ShopCart/ShopCart.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kind.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Kind/Kind.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-488">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -89,31 +75,42 @@
         <entry file="file://$PROJECT_DIR$/src/components/Personage/Personage.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Login/Login.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#218#228#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KnowGood.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/KnowGood/KnowGood.jsx">
+      <file leaf-file-name="Regist.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Regist/Regist.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="66" />
+            <state relative-caret-position="-703">
+              <caret line="186" column="48" selection-start-line="186" selection-start-column="48" selection-end-line="186" selection-end-column="48" />
               <folding>
-                <element signature="n#!!block;n#componentWillUnmount#0;n#KnowGood#0" />
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#394#425#0" />
+                <element signature="e#1324#2996#0" />
+                <element signature="e#2439#2449#0" />
+                <element signature="e#4070#4080#0" />
+                <element signature="e#212#552#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Login/Login.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="277" column="52" selection-start-line="277" selection-start-column="44" selection-end-line="277" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#734#1147#0" />
+                <element signature="e#1178#2801#0" />
+                <element signature="e#3642#4333#0" />
+                <element signature="n#!!block;n#regist#0;n#Login#0" />
               </folding>
             </state>
           </provider>
@@ -122,11 +119,26 @@
       <file leaf-file-name="Login.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Login/Login.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+            <state relative-caret-position="110">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
-                <element signature="e#59#3511#0" />
-                <element signature="e#126#3507#0" />
+                <element signature="e#454#680#0" />
+                <element signature="e#698#1162#0" />
+                <element signature="e#856#1000#0" />
+                <element signature="e#1012#1154#0" />
+                <element signature="e#1187#1734#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KnowGood.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/KnowGood/KnowGood.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!block;n#componentWillUnmount#0;n#KnowGood#0" />
               </folding>
             </state>
           </provider>
@@ -151,13 +163,14 @@
       <find>swiper-pagination</find>
       <find>newGoods-container</find>
       <find>knowgood-scroll-wrap</find>
-      <find>class=</find>
       <find>for=</find>
+      <find>class=</find>
+      <find>input-info</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
-      <replace>className=</replace>
       <replace>htmlFor=</replace>
+      <replace>className=</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -189,7 +202,6 @@
         <option value="$PROJECT_DIR$/src/redux/actions.js" />
         <option value="$PROJECT_DIR$/src/components/RightContent/RightContent.less" />
         <option value="$PROJECT_DIR$/src/containers/Kind/Kind.less" />
-        <option value="$PROJECT_DIR$/src/containers/Kind/Kind.jsx" />
         <option value="$PROJECT_DIR$/src/components/RightContent/RightContent.jsx" />
         <option value="$PROJECT_DIR$/src/components/ShopCart/ShopCart.less" />
         <option value="$PROJECT_DIR$/src/components/ShopCart/ShopCart.jsx" />
@@ -199,10 +211,14 @@
         <option value="$PROJECT_DIR$/src/containers/KnowGood/KnowGood.jsx" />
         <option value="$PROJECT_DIR$/src/components/FooterGuide/FooterGuide.jsx" />
         <option value="$PROJECT_DIR$/src/components/Login/Login.vue" />
-        <option value="$PROJECT_DIR$/src/components/Login/Login.less" />
         <option value="$PROJECT_DIR$/src/components/Personage/Personage.jsx" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/containers/Kind/Kind.jsx" />
         <option value="$PROJECT_DIR$/src/App.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Regist/Regist.less" />
         <option value="$PROJECT_DIR$/src/components/Login/Login.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Login/Login.less" />
+        <option value="$PROJECT_DIR$/src/components/Regist/Regist.jsx" />
       </list>
     </option>
   </component>
@@ -251,6 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,25 +278,7 @@
             <path>
               <item name="yanxuan-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="yanxuan-react" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yanxuan-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yanxuan-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yanxuan-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yanxuan-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yanxuan-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yanxuan-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yanxuan-react" type="b2602c69:ProjectViewProjectNode" />
@@ -305,6 +304,13 @@
               <item name="yanxuan-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="yanxuan-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Regist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yanxuan-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yanxuan-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,25 +325,12 @@
               <item name="yanxuan-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="KnowGood" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yanxuan-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yanxuan-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yanxuan-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yanxuan-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="Kind" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,27 +379,27 @@
       <updated>1532502503212</updated>
       <workItem from="1532502507313" duration="1141000" />
       <workItem from="1532503709718" duration="26002000" />
-      <workItem from="1532562398743" duration="36369000" />
+      <workItem from="1532562398743" duration="40710000" />
+      <workItem from="1532650510318" duration="30322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63512000" />
+    <option name="totallyTimeSpent" value="98175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17348485" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2076412" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23089701" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -426,45 +419,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/HomeMain.vue" />
-    <entry file="file://$PROJECT_DIR$/src/components/Interlayer/Interlayer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mock/msite.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <folding>
-            <element signature="e#20#64113#0" />
-            <element signature="e#64129#175732#0" />
-            <element signature="n#!!block;n#flashSaleIndexVO#0;n#!!top" />
-            <element signature="e#176219#185875#0" />
-            <element signature="e#185919#201334#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Cate/Cate.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -472,24 +430,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/img/smalltime.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/img/newgood1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/img/fulishe.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/img/familygood.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/img/smalltime.png" />
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/img/newgood1.png" />
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/img/fulishe.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/img/familygood.jpg" />
     <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/img/xpbg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Cate/img/01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Cate/img/01.jpg" />
     <entry file="file://$PROJECT_DIR$/src/containers/HomeMain/HomeMain.less">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -497,19 +445,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/KnowGood/KnowGood.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4332" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/KnowGood/KnowGood.vue" />
     <entry file="file://$PROJECT_DIR$/src/mock/mockServer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#26#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,12 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="45" selection-start-column="45" selection-end-column="45" />
-          <folding>
-            <element signature="e#156#2827#0" />
-            <element signature="e#2852#5467#0" />
-            <element signature="e#5480#7562#0" />
-            <element signature="e#7578#8864#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,23 +501,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Kind/Kind.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2413">
-          <caret line="129" column="29" lean-forward="true" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RightContent/RightContent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Kind/Kind.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/RightContent/RightContent.vue" />
     <entry file="file://$PROJECT_DIR$/src/containers/Kind/Kind.less">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -595,50 +514,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Kind/Kind.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ShopCart/ShopCart.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#756#2305#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Personage/Personage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#1141#2895#0" />
-            <element signature="e#2910#3278#0" />
-            <element signature="e#3318#3711#0" />
-            <element signature="e#3735#3762#0" />
-            <element signature="e#3787#3814#0" />
-            <element signature="e#3838#3865#0" />
-            <element signature="e#3885#3912#0" />
-            <element signature="e#3935#3962#0" />
-            <element signature="e#3985#4012#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Personage/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ShopCart/ShopCart.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/Personage/Personage.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/Personage/style.css" />
     <entry file="file://$PROJECT_DIR$/src/components/Personage/img/personlogo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -653,16 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Cate/Cate.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,9 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-          <folding>
-            <element signature="e#63#1612#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,37 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ShopCart/ShopCart.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1347">
-          <caret line="132" column="2" lean-forward="true" selection-start-line="132" selection-start-column="2" selection-end-line="275" selection-end-column="3" />
-          <folding>
-            <element signature="n#div#0;n#template#0;n#!!top" />
-            <element signature="e#3756#7208#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login/Login.vue" />
     <entry file="file://$PROJECT_DIR$/src/redux/reducers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -769,40 +607,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login/Login.less">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
-          <folding>
-            <element signature="e#59#3511#0" />
-            <element signature="e#126#3507#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Personage/Personage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/KnowGood/KnowGood.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="66" />
+        <state relative-caret-position="152">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
             <element signature="n#!!block;n#componentWillUnmount#0;n#KnowGood#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Regist/img/quxiao.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Regist/Regist.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/Personage/Personage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -817,13 +648,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login/Login.jsx">
+    <entry file="file://$PROJECT_DIR$/src/containers/Kind/Kind.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="-488">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#218#228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Cate/Cate.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Regist/Regist.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ShopCart/ShopCart.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login/Login.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#454#680#0" />
+            <element signature="e#698#1162#0" />
+            <element signature="e#856#1000#0" />
+            <element signature="e#1012#1154#0" />
+            <element signature="e#1187#1734#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="277" column="52" selection-start-line="277" selection-start-column="44" selection-end-line="277" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#734#1147#0" />
+            <element signature="e#1178#2801#0" />
+            <element signature="e#3642#4333#0" />
+            <element signature="n#!!block;n#regist#0;n#Login#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Regist/Regist.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="186" column="48" selection-start-line="186" selection-start-column="48" selection-end-line="186" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#394#425#0" />
+            <element signature="e#1324#2996#0" />
+            <element signature="e#2439#2449#0" />
+            <element signature="e#4070#4080#0" />
+            <element signature="e#212#552#0" />
           </folding>
         </state>
       </provider>

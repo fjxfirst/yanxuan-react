@@ -8,6 +8,7 @@ import Kind from './containers/Kind/Kind'
 import ShopCart from './components/ShopCart/ShopCart'
 import Login from './components/Login/Login'
 import Personage from './components/Personage/Personage'
+import Regist from './components/Regist/Regist'
 import './assets/js/adaptive'
 import './assets/less/clearFix.less'
 
@@ -33,6 +34,7 @@ this.state.paths.find((path) => {
           <Route path='/ShopCart' component={ShopCart}/>
           <Route path='/Personage' component={Personage}/>
           <Route path='/Login' component={Login}/>
+          <Route path='/Regist' component={Regist}/>
           <Route component={Interlayer}/>
         </Switch>
         {/*{currentNav?<FooterGuide/>:null}*/}
